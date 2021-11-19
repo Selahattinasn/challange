@@ -16,3 +16,44 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+let namen=prompt("Geben Sie die Name ein: ");
+
+let age=parseInt(prompt("Geben Sie die Alter ein: "));
+
+// Zum Testen
+console.log(age);
+console.log(typeof age);
+
+// if (age>=0 && age<=5){
+//     console.log(namen+" trinkt Milch");
+// }
+// else if (age>= 6 && age<=12){
+//     console.log(namen+" trinkt Saft");
+// }
+// else if (age>= 13 && age<=17){
+//     console.log(namen+" trinkt Cola");
+// }
+// else  {
+//     console.log(namen+" trinkt Wein");
+// }
+
+
+
+
+switch (true) {
+    case (age>=0 && age<=5):
+        console.log(namen+" trinkt Milch");
+        break;
+    case (age>=6 && age<=12):
+        console.log(namen+" trinkt Saft");
+        break;
+    case (age>=13 && age<=17):
+        console.log(namen+" trinkt Cola");
+        break;
+    default:
+        console.log(namen+" trinkt Wein");
+        break;
+}
+
+
+

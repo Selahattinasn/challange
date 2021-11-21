@@ -53,7 +53,8 @@ switch (true) {
     default:
         console.log(namen+" trinkt Wein");
         break;
-}
+}console.log("Hallo Welt");
+
 
 
 

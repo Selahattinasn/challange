@@ -50,10 +50,15 @@ switch (true) {
     case (age>=13 && age<=17):
         console.log(namen+" trinkt Cola");
         break;
-    default:
-        console.log(namen+" trinkt Wein");
+    case (age>=18):
+        console.log(namen+" trinkt Sira");
         break;
-}console.log("Hallo Welt");
+    default:
+        console.log("Ungültige Eingabe, bitte geben Sie ein numeric ein.");
+        break;
+}
+
+
 
 
 
